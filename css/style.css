@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family:"Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #666;
+}
+
+.fistBackground, .secondBackground, .thirdBackground {
+    position: relative;
+    opacity: 0,70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.fistBackground {
+    background-image: url(/Images/background_1.jpg);
+    min-height: 100%;
+}
+
+.secondBackground {
+    background-image: url(/Images/background_2.jpg);
+    min-height: 400px;
+}
+
+.thirdBackground {
+    background-image: url(/Images/background_3.jpg);
+    min-height: 400px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.sectionOne {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.sectionTwo, .sectionThree {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.bgText {
+position: absolute;
+top: 50%;
+width: 100%;
+text-align: center;
+color: #000;
+font-size: 27px;
+letter-spacing: 8px;
+text-transform: uppercase;
+}
+
+.bgText .border {
+background-color: #111;
+color: #fff;
+padding: 20px;
+}
+
+.bgText .border.transp {
+    background-color: transparent;
+}
+
