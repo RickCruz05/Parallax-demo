@@ -1,4 +1,4 @@
-# Churrascômetro
+# Efeito Parallax
 
 <p align = "center">Praticando a criação do efeito Parallax.</>
   
